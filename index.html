@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script> function changetxt(tag){
+		tag.value = 'Ой, я поменял текст!';
+	}
+function changetxt2(tag){
+		tag.value = 'Ой, а теперь еще раз поменял!';
+	}</script>
+	<title>Document</title>
+</head>
+<body>
+		<input type="text" value="Нажми на меня!" onclick="changetxt(this)" onblur="changetxt2(this)">
+</body>
+	<style>
+		input {
+			width: 400px;
+		}
+	</style>
+</html>
